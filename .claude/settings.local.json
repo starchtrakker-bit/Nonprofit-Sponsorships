@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npm list *)",
+      "Bash(npx tsc *)",
+      "Bash(npx supabase *)",
+      "Bash(supabase --version)",
+      "Bash(curl -s http://localhost:3000/*)",
+      "Bash(curl -s http://localhost:3000/api/*)",
+      "Bash(git add *)",
+      "Bash(git commit -m *)",
+      "Bash(git push *)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(pkill -f \"next dev\")",
+      "Read(//workspaces/**)",
+      "Read(//tmp/**)",
+      "WebFetch(domain:supabase.com)",
+      "WebFetch(domain:nextjs.org)",
+      "WebSearch"
+    ]
+  }
+}
